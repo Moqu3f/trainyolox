@@ -17,10 +17,10 @@ class Exp(MyExp):
         self.data_dir = "datasets"
         self.train_ann = "train/instances_train2017.json"
         self.val_ann = "val/instances_val2017.json"
-        self.test_ann = "test/instances_val2017.json"
+        self.test_ann = "test/instances_test2017.json"
 
         self.num_classes = 7
 
-        self.max_epoch = 300
+        self.max_epoch = 50
         self.data_num_workers = 4
         self.eval_interval = 1
